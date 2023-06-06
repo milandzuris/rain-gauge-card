@@ -5,6 +5,7 @@ import * as fr from './languages/fr.json';
 import * as nl from './languages/nl.json';
 import * as pt from './languages/pt.json';
 import * as sl from './languages/sl.json';
+import * as sk from './languages/sk.json';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const languages: any = {
@@ -15,6 +16,7 @@ const languages: any = {
   nl: nl,
   pt: pt,
   sl: sl,
+  sk: sk,
 };
 
 export const CARD_LANGUAGES = [...Object.keys(languages), ''].sort();
